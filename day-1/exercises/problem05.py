@@ -1,3 +1,5 @@
+# Character Frequency
+
 word = "banana"
 
 frequency = {}

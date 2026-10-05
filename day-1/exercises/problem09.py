@@ -1,3 +1,5 @@
+#  First Non-Repeating Character
+
 word = "swiss"
 
 frequency = {}

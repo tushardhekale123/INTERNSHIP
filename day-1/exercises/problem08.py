@@ -1,3 +1,5 @@
+# Find Duplicate Numbe
+
 numbers = [1, 3, 4, 2, 2]
 
 seen = set()

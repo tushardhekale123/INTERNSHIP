@@ -1,3 +1,5 @@
+# Palindrome
+
 word = "madam"
 if word == word[::-1]:
    print(True)
