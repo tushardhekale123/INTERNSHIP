@@ -57,6 +57,21 @@ A command-line Employee Management application was created with the following fe
 ```text
 day-01/
 ├── exercises/
+│   ├── problem01.py
+│   ├── problem02.py
+│   ├── problem03.py
+│   ├── problem04.py
+│   ├── problem05.py
+│   ├── problem06.py
+│   ├── problem07.py
+│   ├── problem08.py
+│   ├── problem09.py
+│   ├── problem10.py
+│   ├── problem11.py
+│   ├── problem12.py
+│   ├── problem13.py
+│   ├── problem14.py
+│   └── problem15.py
 ├── employee-management/
 │   └── employee_management.py
 └── README.md
