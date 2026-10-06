@@ -1,3 +1,0 @@
-Student Name: Tushar
-Course: Python
-Score: 85
