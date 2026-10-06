@@ -1,6 +1,6 @@
 ## Project Information
 
-Day-02 focuses on Python development, programming fundamentals, file handling, exception handling, object-oriented programming, JSON and CSV data processing, and building practical Python applications.
+Day-02 focuses on Python development, programming fundamentals, exception handling, file handling, object-oriented programming, JSON and CSV data processing, and building practical Python applications.
 
 ## Objectives
 
@@ -10,18 +10,18 @@ Day-02 focuses on Python development, programming fundamentals, file handling, e
 - Use conditions and loops.
 - Create and use functions.
 - Understand lambda functions and list comprehensions.
-- Learn how to create and use Python modules.
-- Handle exceptions using Python exception handling.
+- Learn Python modules.
+- Handle exceptions properly.
 - Read and write files.
 - Understand classes and objects.
 - Learn inheritance and encapsulation.
 - Use virtual environments and pip.
-- Work with JSON data.
-- Process CSV data and generate statistics.
-- Build a practical Python management system.
+- Work with JSON and CSV data.
+- Build a practical management system.
 
 ## Project Structure
 
+```text
 day-2/
 │
 ├── csv-analysis/
@@ -46,9 +46,9 @@ day-2/
 │   ├── exercise12.py
 │   ├── exercise13.py
 │   └── price_utils.py
-|
-└── README.md
+│
 ├── books.json
+└── README.md
 
 
 
