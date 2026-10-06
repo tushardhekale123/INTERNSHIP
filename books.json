@@ -1,0 +1,23 @@
+[
+    {
+        "id": 101,
+        "title": "Python Basics",
+        "author": "Tushar",
+        "price": 6000.0,
+        "category": "programming"
+    },
+    {
+        "id": 102,
+        "title": "Data Science Guide",
+        "author": "Sumit",
+        "price": 450.0,
+        "category": "Data"
+    },
+    {
+        "id": 103,
+        "title": "Web Development",
+        "author": "Munna",
+        "price": 650.0,
+        "category": "Programming"
+    }
+]
