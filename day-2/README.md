@@ -1,71 +1,133 @@
-# Day 2 - Python Programming
+## Project Information
 
-## Objective
+Day-02 focuses on Python development, programming fundamentals, file handling, exception handling, object-oriented programming, JSON and CSV data processing, and building practical Python applications.
 
-To practice Python programming fundamentals, Object-Oriented Programming,
-file handling, exception handling, JSON storage, and CSV data analysis.
+## Objectives
 
-## Topics Covered
+- Learn Python syntax and basic programming concepts.
+- Understand variables and data types.
+- Work with lists, tuples, sets, and dictionaries.
+- Use conditions and loops.
+- Create and use functions.
+- Understand lambda functions and list comprehensions.
+- Learn how to create and use Python modules.
+- Handle exceptions using Python exception handling.
+- Read and write files.
+- Understand classes and objects.
+- Learn inheritance and encapsulation.
+- Use virtual environments and pip.
+- Work with JSON data.
+- Process CSV data and generate statistics.
+- Build a practical Python management system.
 
-- Python Syntax
-- Variables and Data Types
-- Lists, Tuples, Sets and Dictionaries
-- Conditions and Loops
-- Functions
-- Lambda Functions
-- List Comprehension
-- Modules and Packages
-- Exception Handling
-- File Handling
-- Classes and Objects
-- Inheritance
-- Encapsulation
-- Virtual Environment and pip
-- CSV Data Analysis
+## Project Structure
+
+day-2/
+│
+├── csv-analysis/
+│   ├── analyze_books.py
+│   └── books_dataset.csv
+│
+├── management-system/
+│   └── book_management.py
+│
+├── python-exercises/
+│   ├── exercise01.py
+│   ├── exercise02.py
+│   ├── exercise03.py
+│   ├── exercise04.py
+│   ├── exercise05.py
+│   ├── exercise06.py
+│   ├── exercise07.py
+│   ├── exercise08.py
+│   ├── exercise09.py
+│   ├── exercise10.py
+│   ├── exercise11.py
+│   ├── exercise12.py
+│   ├── exercise13.py
+│   └── price_utils.py
+|
+└── README.md
+├── books.json
+
+
 
 ## Python Exercises
 
-Completed Python exercises covering:
-
-1. Variables and Data Types
-2. User Input and Type Conversion
-3. Python Collections
-4. Conditions and Loops
-5. Functions
-6. Lambda Functions
-7. List Comprehension
-8. Modules and Packages
-9. Exception Handling
-10. File Handling
-11. Classes and Objects
-12. Inheritance
-13. Encapsulation
-14. Virtual Environment and pip
+The python-exercises folder contains programs demonstrating Python concepts such as variables, data types, collections, conditions, loops, functions, lambda functions, list comprehensions, modules, exception handling, file handling, classes, objects, inheritance, and encapsulation.
 
 ## Book Management System
 
-A command-line Book Management System was created using Python.
+The Book Management System is a command-line Python application that supports:
 
-### Features
+Add Book
+List Books
+Search Book
+Update Book
+Delete Book
+Filter Books by Category
+Sort Books by Price
+Display Statistics
 
-- Add Book
-- List Books
-- Search Book
-- Update Book
-- Delete Book
-- Filter by Category
-- Sort by Price
-- Statistics
-- JSON Storage
-- Exception Handling
+Book information is stored in a JSON file.
 
-### Storage
+## CSV Analysis
 
-Book data is stored in:
+The CSV analysis program reads book data from a CSV file and provides:
 
-`books.json`
+Total record count
+Missing value detection
+Duplicate record detection
+Average price
+Minimum price
+Maximum price
+Category-wise statistics
 
-### How to Run
 
-```bash
-python day-2/management-system/book_management.py
+## Exception Handling
+
+Exception handling is implemented to handle errors such as:
+
+Invalid numeric input
+Division by zero
+Missing files
+Invalid JSON data
+Invalid user input
+
+
+## Technologies Used
+   
+Python
+JSON
+CSV
+VS Code
+Git and GitHub
+Virtual Environment
+pip
+
+
+## Learning Outcomes
+
+After completing Day-02, the following Python concepts were practiced:
+
+Python syntax
+Variables and data types
+Lists
+Tuples
+Sets
+Dictionaries
+Conditions
+Loops
+Functions
+Lambda functions
+List comprehensions
+Modules
+Exception handling
+File handling
+Classes and objects
+Inheritance
+Encapsulation
+JSON data processing
+CSV data processing
+Virtual environments
+Git and GitHub
