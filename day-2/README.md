@@ -60,14 +60,14 @@ The python-exercises folder contains programs demonstrating Python concepts such
 
 The Book Management System is a command-line Python application that supports:
 
-Add Book
-List Books
-Search Book
-Update Book
-Delete Book
-Filter Books by Category
-Sort Books by Price
-Display Statistics
+- Add Book
+- List Books
+- Search Book
+- Update Book
+- Delete Book
+- Filter Books by Category
+- Sort Books by Price
+- Display Statistics
 
 Book information is stored in a JSON file.
 
@@ -75,59 +75,59 @@ Book information is stored in a JSON file.
 
 The CSV analysis program reads book data from a CSV file and provides:
 
-Total record count
-Missing value detection
-Duplicate record detection
-Average price
-Minimum price
-Maximum price
-Category-wise statistics
+- Total record count
+- Missing value detection
+- Duplicate record detection
+- Average price
+- Minimum price
+- Maximum price
+- Category-wise statistics
 
 
 ## Exception Handling
 
 Exception handling is implemented to handle errors such as:
 
-Invalid numeric input
-Division by zero
-Missing files
-Invalid JSON data
-Invalid user input
+- Invalid numeric input
+- Division by zero
+- Missing files
+- Invalid JSON data
+- Invalid user input
 
 
 ## Technologies Used
    
-Python
-JSON
-CSV
-VS Code
-Git and GitHub
-Virtual Environment
-pip
+- Python
+- JSON
+- CSV
+- VS Code
+- Git and GitHub
+- Virtual Environment
+- pip
 
 
 ## Learning Outcomes
 
 After completing Day-02, the following Python concepts were practiced:
 
-Python syntax
-Variables and data types
-Lists
-Tuples
-Sets
-Dictionaries
-Conditions
-Loops
-Functions
-Lambda functions
-List comprehensions
-Modules
-Exception handling
-File handling
-Classes and objects
-Inheritance
-Encapsulation
-JSON data processing
-CSV data processing
-Virtual environments
-Git and GitHub
+- Python syntax
+- Variables and data types
+- Lists
+- Tuples
+- Sets
+- Dictionaries
+- Conditions
+- Loops
+- Functions
+- Lambda functions
+- List comprehensions
+- Modules
+- Exception handling
+- File handling
+- Classes and objects
+- Inheritance
+- Encapsulation
+- JSON data processing
+- CSV data processing
+- Virtual environments
+- Git and GitHub
