@@ -21,7 +21,6 @@ Day-02 focuses on Python development, programming fundamentals, exception handli
 
 ## Project Structure
 
-```text
 day-2/
 │
 ├── csv-analysis/
