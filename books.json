@@ -19,5 +19,12 @@
         "author": "Munna",
         "price": 650.0,
         "category": "Programming"
+    },
+    {
+        "id": 101,
+        "title": "Python Basics",
+        "author": "Tushar",
+        "price": 550.0,
+        "category": "Programming"
     }
 ]
