@@ -76,24 +76,26 @@ day-3/
 
 ```
 
-Technologies Used
+## Technologies Used
+
 Python
 Pandas
 NumPy
 Matplotlib
 How to Run
 
-Run data analysis:
+## Run data analysis:
 
 python day-3/analysis/data_analysis.py
 
-Run data cleaning:
+## Run data cleaning:
 
 python day-3/data-cleaning/data_cleaning.py
 
-Run visualizations:
+## Run visualizations:
 
 python day-3/visualizations/visualizations.py
-Learning Outcome
+
+## Learning Outcome
 
 Through this project, I practiced data inspection, cleaning, filtering, sorting, grouping, statistical analysis, outlier detection and data visualization using Python.
