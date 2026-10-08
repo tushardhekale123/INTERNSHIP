@@ -66,10 +66,34 @@ day-3/
 ├── analysis/
 │   └── data_analysis.py
 ├── visualizations/
-│   ├── visualizations.py
-│   ├── average_footfall_by_location.png
 │   ├── average_complaints_by_location.png
+│   ├── average_footfall_by_location.png
 │   ├── cleanliness_histogram.png
 │   ├── footfall_vs_complaints.png
+│   ├── visualizations.py
 │   └── waste_level_distribution.png
 └── README.md
+
+```
+
+Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+How to Run
+
+Run data analysis:
+
+python day-3/analysis/data_analysis.py
+
+Run data cleaning:
+
+python day-3/data-cleaning/data_cleaning.py
+
+Run visualizations:
+
+python day-3/visualizations/visualizations.py
+Learning Outcome
+
+Through this project, I practiced data inspection, cleaning, filtering, sorting, grouping, statistical analysis, outlier detection and data visualization using Python.
