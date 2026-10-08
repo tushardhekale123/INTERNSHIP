@@ -48,4 +48,5 @@ outliers = data[
     (data["footfall"] < lower_limit) |
     (data["footfall"] > upper_limit)
 ]
+
 print(outliers)
