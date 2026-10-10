@@ -1,0 +1,2 @@
+Best model by test F1 score: Logistic Regression
+F1 score: 1.000
