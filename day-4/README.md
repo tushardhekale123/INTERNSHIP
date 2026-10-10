@@ -91,7 +91,7 @@ Run a prediction:
 This is a learning project using a small, rule-labeled dataset. Real-world use would require representative inspection data and independent validation.
  
 ## Final Day 4 structure
-
+```text
 day-4/
 ├── dataset/
 │   ├── facility_inspection.csv
