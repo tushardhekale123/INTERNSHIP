@@ -1,0 +1,32 @@
+[
+    {
+        "id": 101,
+        "name": "Aarav Sharma",
+        "department": "IT",
+        "salary": 35000
+    },
+    {
+        "id": 102,
+        "name": "Priya Patil",
+        "department": "HR",
+        "salary": 28000
+    },
+    {
+        "id": 103,
+        "name": "Rahul Verma",
+        "department": "IT",
+        "salary": 45000
+    },
+    {
+        "id": 104,
+        "name": "Sneha Joshi",
+        "department": "Finance",
+        "salary": 40000
+    },
+    {
+        "id": 105,
+        "name": "Kabir Khan",
+        "department": "Marketing",
+        "salary": 32000
+    }
+]

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Employee Management Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div>
+            <h1>Employee Dashboard</h1>
+            <p>Manage your team efficiently</p>
+        </div>
+        <span class="status">● Dashboard Active</span>
+    </header>
+
+    <main class="container">
+
+        <section class="summary">
+            <article class="card">
+                <p>Total Employees</p>
+                <h2 id="totalEmployees">0</h2>
+            </article>
+
+            <article class="card">
+                <p>Departments</p>
+                <h2 id="totalDepartments">0</h2>
+            </article>
+
+            <article class="card">
+                <p>Total Monthly Salary</p>
+                <h2 id="totalSalary">₹0</h2>
+            </article>
+        </section>
+
+        <section class="toolbar">
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search employee name..."
+            >
+
+            <select id="departmentFilter">
+                <option value="All">All Departments</option>
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                <option value="Finance">Finance</option>
+                <option value="Marketing">Marketing</option>
+            </select>
+
+            <select id="sortSelect">
+                <option value="name">Sort by Name</option>
+                <option value="salaryHigh">Salary: High to Low</option>
+                <option value="salaryLow">Salary: Low to High</option>
+            </select>
+
+            <button id="addEmployeeBtn">+ Add Employee</button>
+        </section>
+
+        <section class="table-card">
+            <div class="table-heading">
+                <h2>Employee Records</h2>
+                <span id="recordCount">0 records</span>
+            </div>
+
+            <div id="message" class="message" role="status"></div>
+
+            <div class="table-scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Employee Name</th>
+                            <th>Department</th>
+                            <th>Monthly Salary</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="employeeTable"></tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <dialog id="employeeDialog">
+        <form id="employeeForm">
+            <h2 id="formTitle">Add Employee</h2>
+
+            <label for="employeeName">Employee Name</label>
+            <input
+                id="employeeName"
+                type="text"
+                maxlength="60"
+                required
+            >
+
+            <label for="employeeDepartment">Department</label>
+            <select id="employeeDepartment" required>
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                <option value="Finance">Finance</option>
+                <option value="Marketing">Marketing</option>
+            </select>
+
+            <label for="employeeSalary">Monthly Salary (₹)</label>
+            <input
+                id="employeeSalary"
+                type="number"
+                min="0"
+                step="1"
+                required
+            >
+
+            <div class="form-actions">
+                <button type="submit">Save Employee</button>
+                <button type="button" id="cancelBtn" class="secondary">
+                    Cancel
+                </button>
+            </div>
+        </form>
+    </dialog>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
