@@ -17,6 +17,7 @@ I created an Employee Management Dashboard using Next.js and a separate Employee
 - CSS
 
 ## Project Structure
+```text
 
 day-7/
 ├── nextjs-app/
@@ -37,6 +38,7 @@ day-7/
 │   └── package.json
 │
 └── README.md
+```
 
 ## Tasks Completed
 
